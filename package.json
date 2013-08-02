@@ -1,0 +1,18 @@
+{
+  "name": "mktorrent",
+  "version": "0.0.1",
+  "author": "jarretth",
+  "description": "utility to create torrent files",
+  "main": "./lib/mktorrent",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarretth/mktorrent.git"
+  },
+  "keywords": [
+    "bittorrent",
+    "cli"
+  ],
+  "dependencies" : {
+    "bencode"   :  "*"
+  }
+}
