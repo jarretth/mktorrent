@@ -1,4 +1,7 @@
-var mktorrent = require('../lib/mktorrent');
-var b = new mktorrent.mktorrent;
-var c = b.create().encode();
-console.info(mktorrent.readTorrent(c));
+var mktorrent = require('../lib/mktorrent'),
+	util = require('util');
+var t = new mktorrent.Torrent;
+t.save(__dirname + '/test.torrent');
+mktorrent.read(__dirname + '/test.torrent',function(data) {
+	console.log(util.inspect(data));
+});
