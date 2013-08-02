@@ -1,4 +1,7 @@
 Create a torrent
+
+Doesn't work.
+
 #Exports
 ##Torrent Object
 	addFile - adds a file(should support globbing and shit)
